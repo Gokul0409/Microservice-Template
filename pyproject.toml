@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "MVC Pattern"
+version = "0.1.0"
+description = "It is a boilerplate for MVC Pattern"
+authors = ["Gokulvigneshwaran.M <gokulvigneshwaran.moorthy@radius.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+sanic = "^24.6.0"
+pycryptodome = "^3.21.0"
+sanic-ext = "^23.12.0"
+pydantic = "^2.9.2"
+python-box = "^7.2.0"
+toml = "^0.10.2"
+sqlalchemy = "^2.0.36"
+requests = "^2.32.3"
+alembic = "^1.13.3"
+pymysql = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

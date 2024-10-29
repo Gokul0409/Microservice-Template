@@ -1,0 +1,3 @@
+[database]
+
+DB_URL = "mysql+pymysql://root:root1234@localhost/sample"
