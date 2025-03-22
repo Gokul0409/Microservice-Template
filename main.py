@@ -11,5 +11,6 @@ app.blueprint(user_print)
 async def on_start(app, loop):
     initialize_db()
 
+
 if "__main__" == __name__:
     app.run(host="localhost", port=4444, dev=True)
